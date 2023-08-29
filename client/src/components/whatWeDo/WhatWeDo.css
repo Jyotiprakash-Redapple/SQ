@@ -1,0 +1,11 @@
+.WhatWeDo {
+	height: 100vh;
+	background: #d6d6d6;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	gap: 50px;
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Jyoti-portfolio",
+	"version": "1.0.0",
+	"description": "Portfolio website Jyoti",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": "Jyoti Prakash Panigrahi",
+	"license": "ISC",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"dependencies": {
+		"@material-ui/core": "^4.12.3",
+		"express": "^4.17.1"
+	}
+}

@@ -1,0 +1,20 @@
+.howWeDoIt {
+	min-height: 100vh;
+	background: #141029;
+	color: #fff;
+
+	display: flex;
+	flex-direction: column;
+	padding: 130px;
+	align-items: center;
+}
+
+/* .HowWeDoIt .page-text {
+	font-size: 30px;
+	font-weight: 300;
+} */
+
+.howWeDoIt .page-title {
+	color: #fff;
+	margin-bottom: 200px;
+}

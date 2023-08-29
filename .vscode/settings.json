@@ -1,0 +1,6 @@
+{
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": true,
+	"prettier.singleQuote": true,
+	"prettier.singleAttributePerLine": false
+}

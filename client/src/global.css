@@ -1,0 +1,36 @@
+.page-title {
+	font-family: "Orbitron";
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.page-text {
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.page-text strong {
+	font-weight: 900;
+}
+
+.skeleton-btn {
+	background: none;
+	border: 1px solid #000;
+	outline: none;
+	cursor: pointer;
+	padding: 13px 20px;
+	border-radius: 25px;
+
+	font-size: 15px;
+	text-transform: uppercase;
+
+	transition: color 0.3s, background-color 0.3s;
+}
+
+.skeleton-btn:hover {
+	background-color: #333;
+	color: #fff;
+}

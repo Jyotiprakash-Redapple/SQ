@@ -1,0 +1,191 @@
+.Contact {
+	height: 100vh;
+	background: #d6d6d6;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+
+	gap: 50px;
+}
+
+.Contact .page-title {
+	color: #000;
+}
+
+.form {
+	width: 700px;
+	padding: 0 20px;
+}
+
+.button-holder {
+	text-align: center;
+}
+
+.button-holder > button {
+	border: 1px solid #7a7a7a;
+	color: #7a7a7a;
+}
+
+.inline-group {
+	width: 620px;
+	margin: auto;
+}
+
+.inline-group > div {
+	width: 290px;
+	display: inline-block;
+	position: relative;
+	border: 1px solid #7a7a7a;
+	border-radius: 30px;
+	margin: 0 10px;
+}
+
+.input-group {
+	width: 600px;
+	position: relative;
+	border: 1px solid #7a7a7a;
+	border-radius: 30px;
+	margin: 25px auto;
+}
+
+.input-group input,
+textarea {
+	padding: 12px 24px;
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	color: #363636;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.input-group textarea {
+	resize: none;
+	width: 580px;
+	height: 200px;
+	padding: 18px 25px;
+	outline: none;
+}
+
+.input-group:hover,
+.input-group:focus-within {
+	border-color: #363636;
+}
+
+.input-group input:focus,
+.input-group:hover input {
+	color: #363636;
+	outline: none;
+}
+
+.input-group label {
+	position: absolute;
+	background-color: transparent;
+	padding: 12px 24px;
+	line-height: 20px;
+	top: 0;
+	left: 4px;
+	bottom: 0;
+	color: #888888;
+	cursor: text;
+	transition: 0.2s;
+}
+
+.input-group:hover label {
+	color: #363636;
+}
+
+.input-group:focus-within label,
+.input-group input:not(:placeholder-shown) ~ label,
+.input-group textarea:not(:placeholder-shown) ~ label {
+	padding: 0px 8px;
+	background-color: #d6d6d6;
+	top: -12px;
+	left: 20px;
+	bottom: auto;
+	color: #363636;
+}
+
+.skeleton-btn-disabled {
+	cursor: not-allowed !important;
+	background: #d6d6d6;
+	color: #7a7a7a;
+	outline: none;
+	padding: 13px 20px;
+	border-radius: 25px;
+	font-size: 15px;
+	text-transform: uppercase;
+
+	transition: color 0.3s, background-color 0.3s;
+}
+
+/* ------------------ Mobile Responsive ------------------ */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	.Contact {
+		gap: 0 !important;
+	}
+	.Contact > h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.form-container {
+		width: 90vw;
+		margin: 50px auto;
+	}
+	.form {
+		width: 90vw !important;
+		margin: auto;
+	}
+	.input-group {
+		width: 70vw !important;
+		margin: 15px auto;
+	}
+	.inline-group {
+		width: 70vw !important;
+	}
+	.inline-group > div {
+		display: block;
+		width: 70vw !important;
+		margin: 15px auto;
+	}
+	.input-group label {
+		font-size: 14px;
+	}
+}
+
+/*----------------------- Small Devices ------------------- */
+@media screen and (max-width: 479px) {
+	.Contact {
+		gap: 0 !important;
+	}
+	.Contact > h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+	.form-container {
+		width: 90vw;
+		margin: auto;
+	}
+	.form {
+		width: 90vw !important;
+		margin: auto;
+	}
+	.input-group {
+		width: 70vw !important;
+		margin: 15px auto;
+	}
+	.inline-group {
+		width: 70vw !important;
+	}
+	.inline-group > div {
+		display: block;
+		width: 70vw !important;
+		margin: 15px auto;
+	}
+	.input-group label {
+		font-size: 14px;
+	}
+}
